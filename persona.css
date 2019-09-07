@@ -1,0 +1,27 @@
+body, .info{
+	background-color:#EA9EBA;
+}
+
+@media screen and (max-width:729px){
+	.music{
+			height:300px;
+		}
+	.promo{
+		height:430px;
+	}
+
+}
+@media screen and (min-width:730px) and (max-width:1094px){
+	.music{
+			height:200px;
+		}
+	.promo{
+		height:300px;
+	}
+
+}
+@media screen and (min-width:1095px){
+	.promo, .music{
+		height:200px;
+	}
+}
