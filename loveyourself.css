@@ -1,0 +1,45 @@
+
+/* thank you to http://bts.ibighit.com/bts.php for the code*/
+.background-o {
+	width:100%;
+	height:100%;
+	background:url('https://s3-ap-northeast-1.amazonaws.com/ibighit/bts/loveyourself/flower/ly-o-flower.png') center right no-repeat;
+	background-size: contain !important;
+	position: absolute;
+	left:0;
+	z-index: -9999;
+	text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+.navbar a, .dropdown .dropbtn, .info, .videos, .about, .show, .title, h6 {
+	color:black;
+}
+.break{
+	width:100%;
+	height:150px;
+}
+@media screen and (min-width:400px) and (max-width:794px){
+	.music{
+			height:850px;
+		}
+	.promo{
+		height:1300px;
+	}
+
+}
+@media screen and (min-width:795px) and (max-width:1109px){
+	 .music{
+		height:500px;
+	}
+	.promo{
+		height:700px;
+	}
+}
+@media screen and (min-width:1110px){
+	.promo{
+		height:400px;
+	}
+	.music{
+		height:300px;
+	}
+}

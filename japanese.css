@@ -1,0 +1,58 @@
+.album{
+	height:1200px;
+}
+.special{
+	height:1050px;
+}
+body, .info{
+	background-color:#BD897E;
+}
+.mv {
+	height:150px;
+}
+
+
+
+
+
+@media screen and (max-width:829px){
+	.ep{
+		display:flex;
+		text-align:center;
+		width:100vw;
+		height:100px;
+	}
+	.songs{
+			margin-top:40px;
+			width:270px;
+			margin-left: calc(100vw/2 - 320px/2);
+		}
+	.long{
+		height:1900px;
+	}
+	.space{
+		display:none;
+	}
+	.info{
+		display:block;
+	}
+	.music{
+		margin-left: calc(100vw/2 - 350px/2);
+	}
+	.albumbreak{
+		width:100vw;
+		height:0px;
+	}
+	.special{
+		height:1400px;
+	}
+}
+@media screen and (min-width:830px){
+	.ep{
+		display:flex;
+		text-align:center;
+		width:100vw;
+		height:100px;
+	}
+
+}

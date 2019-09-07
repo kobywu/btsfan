@@ -1,0 +1,124 @@
+/*Thank you http://bts.ibighit.com/wings/ for the background code!*/
+.background {
+	width:100%;
+	height:100%;
+	background:url('https://s3-ap-northeast-1.amazonaws.com/ibighit/bts/wings/background/wings-background-1.jpg') top no-repeat;
+	background-size: cover !important;
+	position: absolute;
+	left:0;
+	z-index: -9999;
+	transition: all linear;
+	-webkit-animation: fade 8s infinite;
+	-moz-animation: fade 8s infinite;
+	-o-animation: fade 8s infinite;
+	animation: fade 8s infinite;
+}
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+	  opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+	  opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+	  opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+	  opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+	  opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+	  opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+	  opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+	  opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.info, .video{
+	background-color:black;
+}
+.idk {
+	border:5px solid black;
+	height:130px;
+}
+body{
+	background-color:black;
+}
+.tracklist{
+	height:550px;
+}
+.more {
+	height:1100px;
+}
+
+@media screen and (max-width:694px){
+	.music{
+		height:450px;
+		}
+	.promo{
+		height:900px;
+	}
+}
+@media screen and (min-width:695px) and (max-width:1109px){
+	.promo{
+		height:550px;
+	}
+	.music{
+	height:300px;
+	}
+}
+@media screen and (min-width:1110px){
+	.promo{
+		height:400px;
+	}
+	.music{
+		height:150px;
+	}
+}

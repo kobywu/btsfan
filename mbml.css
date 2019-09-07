@@ -1,0 +1,88 @@
+/*Thank you http://bts.ibighit.com/youngforever/bts.php for the background code!*/
+.background {
+	width:100%;
+	height:100%;
+	position: fixed;
+	left:0;
+	z-index: -9999;
+	background: linear-gradient(180deg, #00b4ca, #fcd001, #112d8e);
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr="#00b4ca", endColorStr="#fcd001");
+
+	background-size: 600% 600%;
+	
+	-webkit-animation: bts 60s ease infinite;
+	-moz-animation: bts 60s ease infinite;
+	animation: bts 60s ease infinite;
+}
+
+@-webkit-keyframes bts {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes bts {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes bts { 
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+.balloon {
+	width:100%;
+	height:100%;
+	position: fixed;
+	left:0;
+	z-index: -5;
+	background: url("mbml/balloon.png") no-repeat;
+	background-position: center center;
+	background-size:486px;
+	
+	-webkit-animation: balloon 5s ease-in-out infinite;
+	-moz-animation: balloon 5s ease-in-out infinite;
+	animation: balloon 5s ease-in-out infinite;
+	
+}
+@-webkit-keyframes balloon {
+    0%{background-position:50% 40px}
+    50%{background-position:50% 20px}
+    100%{background-position:50% 40px}
+}
+@-moz-keyframes balloon {
+    0%{background-position:50% 40px}
+    50%{background-position:50% 20px}
+    100%{background-position:50% 40px}
+}
+@keyframes balloon { 
+    0%{background-position:50% 40px}
+    50%{background-position:50% 20px}
+    100%{background-position:50% 40px}
+}
+.more{
+	height:1100px;
+}
+
+
+@media screen and (min-width:555px) and (max-width:744px){
+	.music{
+			height:800px;
+		}
+	.promo{
+		height:550px;
+	}
+}
+@media screen and (min-width:745px) and (max-width:1030px){
+	.promo{
+		height:250px;
+	}
+	.music{
+	height:400px;
+	}
+}
+@media screen and (min-width:1031px){
+	.promo, .music{
+		height:240px;
+	}
+}

@@ -1,0 +1,332 @@
+function about() {
+	document.getElementById("hide").classList.toggle("show");
+	document.getElementById("video").classList.remove("show"); 
+	document.getElementById("music").classList.remove("show");
+	document.getElementById("tour").classList.remove("show");
+	document.getElementById("s1").classList.remove("show");
+	document.getElementById("s2").classList.remove("show");
+	document.getElementById("s3").classList.remove("show");
+	document.getElementById("s4").classList.remove("show");
+	document.getElementById("s5").classList.remove("show");
+	document.getElementById("s6").classList.remove("show");
+	document.getElementById("s7").classList.remove("show");
+	document.getElementById("s8").classList.remove("show");
+	document.getElementById("s9").classList.remove("show");
+	document.getElementById("s10").classList.remove("show");
+	document.getElementById("s11").classList.remove("show");
+	document.getElementById("s12").classList.remove("show");
+	document.getElementById("s13").classList.remove("show");
+	document.getElementById("s14").classList.remove("show");
+	document.getElementById("s15").classList.remove("show");
+	document.getElementById("s16").classList.remove("show");
+	document.getElementById("s17").classList.remove("show");
+	document.getElementById("bme").classList.remove("show");
+	document.getElementById("bst").classList.remove("show");
+	document.getElementById("begin").classList.remove("show");
+	document.getElementById("lie").classList.remove("show");
+	document.getElementById("stigma").classList.remove("show");
+	document.getElementById("fl").classList.remove("show");
+	document.getElementById("reflection").classList.remove("show");
+	document.getElementById("mama").classList.remove("show");
+	document.getElementById("awake").classList.remove("show");
+	document.getElementById("lost").classList.remove("show");
+	document.getElementById("bc4").classList.remove("show");
+	document.getElementById("aiw").classList.remove("show");
+	document.getElementById("21cg").classList.remove("show");
+	document.getElementById("tt").classList.remove("show");
+	document.getElementById("sd").classList.remove("show");
+	document.getElementById("nt").classList.remove("show");
+	document.getElementById("iw").classList.remove("show");
+}
+function video() {
+	document.getElementById("video").classList.toggle("show");
+	document.getElementById("hide").classList.remove("show");
+	document.getElementById("music").classList.remove("show");
+	document.getElementById("tour").classList.remove("show");
+	document.getElementById("s1").classList.remove("show");
+	document.getElementById("s2").classList.remove("show");
+	document.getElementById("s3").classList.remove("show");
+	document.getElementById("s4").classList.remove("show");
+	document.getElementById("s5").classList.remove("show");
+	document.getElementById("s6").classList.remove("show");
+	document.getElementById("s7").classList.remove("show");
+	document.getElementById("s8").classList.remove("show");
+	document.getElementById("s9").classList.remove("show");
+	document.getElementById("s10").classList.remove("show");
+	document.getElementById("s11").classList.remove("show");
+	document.getElementById("s12").classList.remove("show");
+	document.getElementById("s13").classList.remove("show");
+	document.getElementById("s14").classList.remove("show");
+	document.getElementById("s15").classList.remove("show");
+	document.getElementById("s16").classList.remove("show");
+	document.getElementById("s17").classList.remove("show");
+	document.getElementById("bme").classList.remove("show");
+	document.getElementById("bst").classList.remove("show");
+	document.getElementById("begin").classList.remove("show");
+	document.getElementById("lie").classList.remove("show");
+	document.getElementById("stigma").classList.remove("show");
+	document.getElementById("fl").classList.remove("show");
+	document.getElementById("reflection").classList.remove("show");
+	document.getElementById("mama").classList.remove("show");
+	document.getElementById("awake").classList.remove("show");
+	document.getElementById("lost").classList.remove("show");
+	document.getElementById("bc4").classList.remove("show");
+	document.getElementById("aiw").classList.remove("show");
+	document.getElementById("21cg").classList.remove("show");
+	document.getElementById("tt").classList.remove("show");
+	document.getElementById("sd").classList.remove("show");
+	document.getElementById("nt").classList.remove("show");
+	document.getElementById("iw").classList.remove("show");
+}
+function music() {
+	document.getElementById("music").classList.toggle("show");
+	document.getElementById("hide").classList.remove("show");
+	document.getElementById("video").classList.remove("show");
+	document.getElementById("tour").classList.remove("show");
+	document.getElementById("s1").classList.remove("show");
+	document.getElementById("s2").classList.remove("show");
+	document.getElementById("s3").classList.remove("show");
+	document.getElementById("s4").classList.remove("show");
+	document.getElementById("s5").classList.remove("show");
+	document.getElementById("s6").classList.remove("show");
+	document.getElementById("s7").classList.remove("show");
+	document.getElementById("s8").classList.remove("show");
+	document.getElementById("s9").classList.remove("show");
+	document.getElementById("s10").classList.remove("show");
+	document.getElementById("s11").classList.remove("show");
+	document.getElementById("s12").classList.remove("show");
+	document.getElementById("s13").classList.remove("show");
+	document.getElementById("s14").classList.remove("show");
+	document.getElementById("s15").classList.remove("show");
+	document.getElementById("s16").classList.remove("show");
+	document.getElementById("s17").classList.remove("show");
+	document.getElementById("bme").classList.remove("show");
+	document.getElementById("bst").classList.remove("show");
+	document.getElementById("begin").classList.remove("show");
+	document.getElementById("lie").classList.remove("show");
+	document.getElementById("stigma").classList.remove("show");
+	document.getElementById("fl").classList.remove("show");
+	document.getElementById("reflection").classList.remove("show");
+	document.getElementById("mama").classList.remove("show");
+	document.getElementById("awake").classList.remove("show");
+	document.getElementById("lost").classList.remove("show");
+	document.getElementById("bc4").classList.remove("show");
+	document.getElementById("aiw").classList.remove("show");
+	document.getElementById("21cg").classList.remove("show");
+	document.getElementById("tt").classList.remove("show");
+	document.getElementById("sd").classList.remove("show");
+	document.getElementById("nt").classList.remove("show");
+	document.getElementById("iw").classList.remove("show");
+}
+function tour() {
+	document.getElementById("tour").classList.toggle("show");
+	document.getElementById("hide").classList.remove("show");
+	document.getElementById("video").classList.remove("show");
+	document.getElementById("music").classList.remove("show");
+	document.getElementById("s1").classList.remove("show");
+	document.getElementById("s2").classList.remove("show");
+	document.getElementById("s3").classList.remove("show");
+	document.getElementById("s4").classList.remove("show");
+	document.getElementById("s5").classList.remove("show");
+	document.getElementById("s6").classList.remove("show");
+	document.getElementById("s7").classList.remove("show");
+	document.getElementById("s8").classList.remove("show");
+	document.getElementById("s9").classList.remove("show");
+	document.getElementById("s10").classList.remove("show");
+	document.getElementById("s11").classList.remove("show");
+	document.getElementById("s12").classList.remove("show");
+	document.getElementById("s13").classList.remove("show");
+	document.getElementById("s14").classList.remove("show");
+	document.getElementById("s15").classList.remove("show");
+	document.getElementById("s16").classList.remove("show");
+	document.getElementById("s17").classList.remove("show");
+	document.getElementById("bme").classList.remove("show");
+	document.getElementById("bst").classList.remove("show");
+	document.getElementById("begin").classList.remove("show");
+	document.getElementById("lie").classList.remove("show");
+	document.getElementById("stigma").classList.remove("show");
+	document.getElementById("fl").classList.remove("show");
+	document.getElementById("reflection").classList.remove("show");
+	document.getElementById("mama").classList.remove("show");
+	document.getElementById("awake").classList.remove("show");
+	document.getElementById("lost").classList.remove("show");
+	document.getElementById("bc4").classList.remove("show");
+	document.getElementById("aiw").classList.remove("show");
+	document.getElementById("21cg").classList.remove("show");
+	document.getElementById("tt").classList.remove("show");
+	document.getElementById("sd").classList.remove("show");
+	document.getElementById("nt").classList.remove("show");
+	document.getElementById("iw").classList.remove("show");
+	
+}
+function track() {
+	document.getElementById("hide").classList.remove("show");
+	document.getElementById("video").classList.remove("show");
+	document.getElementById("music").classList.remove("show");
+	document.getElementById("tour").classList.remove("show");
+	document.getElementById("s1").classList.toggle("show");
+	document.getElementById("s2").classList.toggle("show");
+	document.getElementById("s3").classList.toggle("show");
+	document.getElementById("s4").classList.toggle("show");
+	document.getElementById("s5").classList.toggle("show");
+	document.getElementById("s6").classList.toggle("show");
+	document.getElementById("s7").classList.toggle("show");
+	document.getElementById("s8").classList.toggle("show");
+	document.getElementById("s9").classList.toggle("show");
+	document.getElementById("s10").classList.toggle("show");
+	document.getElementById("s11").classList.toggle("show");
+	document.getElementById("s12").classList.toggle("show");
+	document.getElementById("s13").classList.toggle("show");
+	document.getElementById("s14").classList.toggle("show");
+	document.getElementById("s15").classList.toggle("show");
+	document.getElementById("s16").classList.toggle("show");
+	document.getElementById("s17").classList.toggle("show");
+	document.getElementById("bme").classList.remove("show");
+	document.getElementById("bst").classList.remove("show");
+	document.getElementById("begin").classList.remove("show");
+	document.getElementById("lie").classList.remove("show");
+	document.getElementById("stigma").classList.remove("show");
+	document.getElementById("fl").classList.remove("show");
+	document.getElementById("reflection").classList.remove("show");
+	document.getElementById("mama").classList.remove("show");
+	document.getElementById("awake").classList.remove("show");
+	document.getElementById("lost").classList.remove("show");
+	document.getElementById("bc4").classList.remove("show");
+	document.getElementById("aiw").classList.remove("show");
+	document.getElementById("21cg").classList.remove("show");
+	document.getElementById("tt").classList.remove("show");
+	document.getElementById("sd").classList.remove("show");
+	document.getElementById("nt").classList.remove("show");
+	document.getElementById("iw").classList.remove("show");
+}
+function playBME() {
+	document.getElementById("bme").classList.toggle("show");
+	document.getElementById("bst").classList.remove("show");
+	document.getElementById("begin").classList.remove("show");
+	document.getElementById("lie").classList.remove("show");
+	document.getElementById("stigma").classList.remove("show");
+	document.getElementById("fl").classList.remove("show");
+	document.getElementById("reflection").classList.remove("show");
+	document.getElementById("mama").classList.remove("show");
+	document.getElementById("awake").classList.remove("show");
+	document.getElementById("lost").classList.remove("show");
+	document.getElementById("bc4").classList.remove("show");
+	document.getElementById("aiw").classList.remove("show");
+	document.getElementById("21cg").classList.remove("show");
+	document.getElementById("tt").classList.remove("show");
+	document.getElementById("sd").classList.remove("show");
+	document.getElementById("nt").classList.remove("show");
+	document.getElementById("iw").classList.remove("show");
+}
+function playBST() {
+	document.getElementById("bst").classList.toggle("show");
+	document.getElementById("bme").classList.remove("show");
+	document.getElementById("begin").classList.remove("show");
+	document.getElementById("lie").classList.remove("show");
+	document.getElementById("stigma").classList.remove("show");
+	document.getElementById("fl").classList.remove("show");
+	document.getElementById("reflection").classList.remove("show");
+	document.getElementById("mama").classList.remove("show");
+	document.getElementById("awake").classList.remove("show");
+	document.getElementById("lost").classList.remove("show");
+	document.getElementById("bc4").classList.remove("show");
+	document.getElementById("aiw").classList.remove("show");
+	document.getElementById("21cg").classList.remove("show");
+	document.getElementById("tt").classList.remove("show");
+	document.getElementById("sd").classList.remove("show");
+	document.getElementById("nt").classList.remove("show");
+	document.getElementById("iw").classList.remove("show");
+}
+function playBegin() {
+	document.getElementById("begin").classList.toggle("show");
+	document.getElementById("bme").classList.remove("show");
+	document.getElementById("bst").classList.remove("show");
+	document.getElementById("lie").classList.remove("show");
+	document.getElementById("stigma").classList.remove("show");
+	document.getElementById("fl").classList.remove("show");
+	document.getElementById("reflection").classList.remove("show");
+	document.getElementById("mama").classList.remove("show");
+	document.getElementById("awake").classList.remove("show");
+	document.getElementById("lost").classList.remove("show");
+	document.getElementById("bc4").classList.remove("show");
+	document.getElementById("aiw").classList.remove("show");
+	document.getElementById("21cg").classList.remove("show");
+	document.getElementById("tt").classList.remove("show");
+	document.getElementById("sd").classList.remove("show");
+	document.getElementById("nt").classList.remove("show");
+	document.getElementById("iw").classList.remove("show");
+}
+function playLie() {
+	document.getElementById("lie").classList.toggle("show");
+	document.getElementById("bme").classList.remove("show");
+	document.getElementById("bst").classList.remove("show");
+	document.getElementById("begin").classList.remove("show");
+	document.getElementById("stigma").classList.remove("show");
+	document.getElementById("fl").classList.remove("show");
+	document.getElementById("reflection").classList.remove("show");
+	document.getElementById("mama").classList.remove("show");
+	document.getElementById("awake").classList.remove("show");
+	document.getElementById("lost").classList.remove("show");
+	document.getElementById("bc4").classList.remove("show");
+	document.getElementById("aiw").classList.remove("show");
+	document.getElementById("21cg").classList.remove("show");
+	document.getElementById("tt").classList.remove("show");
+	document.getElementById("sd").classList.remove("show");
+	document.getElementById("nt").classList.remove("show");
+	document.getElementById("iw").classList.remove("show");
+}
+function playStigma() {
+	document.getElementById("stigma").classList.toggle("show");
+	document.getElementById("bme").classList.remove("show");
+	document.getElementById("bst").classList.remove("show");
+	document.getElementById("begin").classList.remove("show");
+	document.getElementById("lie").classList.remove("show");
+	document.getElementById("fl").classList.remove("show");
+	document.getElementById("reflection").classList.remove("show");
+	document.getElementById("mama").classList.remove("show");
+	document.getElementById("awake").classList.remove("show");
+	document.getElementById("lost").classList.remove("show");
+	document.getElementById("bc4").classList.remove("show");
+	document.getElementById("aiw").classList.remove("show");
+	document.getElementById("21cg").classList.remove("show");
+	document.getElementById("tt").classList.remove("show");
+	document.getElementById("sd").classList.remove("show");
+	document.getElementById("nt").classList.remove("show");
+	document.getElementById("iw").classList.remove("show");
+}
+function playFL() {
+	document.getElementById("fl").classList.toggle("show");
+}
+function playReflection() {
+	document.getElementById("reflection").classList.toggle("show");
+}
+function playMAMA() {
+	document.getElementById("mama").classList.toggle("show");
+}
+function playAwake() {
+	document.getElementById("awake").classList.toggle("show");
+}
+function playLost() {
+	document.getElementById("lost").classList.toggle("show");
+}
+function playBC4() {
+	document.getElementById("bc4").classList.toggle("show");
+}
+function playAIW() {
+	document.getElementById("aiw").classList.toggle("show");
+}
+function play21CG() {
+	document.getElementById("21cg").classList.toggle("show");
+}
+function playTT() {
+	document.getElementById("tt").classList.toggle("show");
+}
+function playSD() {
+	document.getElementById("sd").classList.toggle("show");
+}
+function playNT() {
+	document.getElementById("nt").classList.toggle("show");
+}
+function playIW() {
+	document.getElementById("iw").classList.toggle("show");
+}

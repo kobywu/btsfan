@@ -1,0 +1,212 @@
+function about() {
+	document.getElementById("hide").classList.toggle("show");
+	document.getElementById("video").classList.remove("show"); 
+	document.getElementById("music").classList.remove("show");
+	document.getElementById("tour").classList.remove("show");
+	document.getElementById("s1").classList.remove("show");
+	document.getElementById("s2").classList.remove("show");
+	document.getElementById("s3").classList.remove("show");
+	document.getElementById("s4").classList.remove("show");
+	document.getElementById("s5").classList.remove("show");
+	document.getElementById("s6").classList.remove("show");
+	document.getElementById("s7").classList.remove("show");
+	document.getElementById("s8").classList.remove("show");
+	document.getElementById("s9").classList.remove("show");
+	document.getElementById("s10").classList.remove("show");
+	document.getElementById("s11").classList.remove("show");
+	document.getElementById("s12").classList.remove("show");
+	document.getElementById("s13").classList.remove("show");
+	document.getElementById("s14").classList.remove("show");
+	document.getElementById("intro").classList.remove("show");
+	document.getElementById("danger").classList.remove("show");
+	document.getElementById("war").classList.remove("show");
+	document.getElementById("hip").classList.remove("show");
+	document.getElementById("let").classList.remove("show");
+	document.getElementById("rain").classList.remove("show");
+	document.getElementById("cypher").classList.remove("show");
+	document.getElementById("what").classList.remove("show");
+	document.getElementById("phone").classList.remove("show");
+	document.getElementById("kick").classList.remove("show");
+	document.getElementById("heaven").classList.remove("show");
+	document.getElementById("look").classList.remove("show");
+	document.getElementById("2nd").classList.remove("show");
+	document.getElementById("outro").classList.remove("show");
+}
+function video() {
+	document.getElementById("video").classList.toggle("show");
+	document.getElementById("hide").classList.remove("show");
+	document.getElementById("music").classList.remove("show");
+	document.getElementById("tour").classList.remove("show");
+	document.getElementById("s1").classList.remove("show");
+	document.getElementById("s2").classList.remove("show");
+	document.getElementById("s3").classList.remove("show");
+	document.getElementById("s4").classList.remove("show");
+	document.getElementById("s5").classList.remove("show");
+	document.getElementById("s6").classList.remove("show");
+	document.getElementById("s7").classList.remove("show");
+	document.getElementById("s8").classList.remove("show");
+	document.getElementById("s9").classList.remove("show");
+	document.getElementById("s10").classList.remove("show");
+	document.getElementById("s11").classList.remove("show");
+	document.getElementById("s12").classList.remove("show");
+	document.getElementById("s13").classList.remove("show");
+	document.getElementById("s14").classList.remove("show");
+	document.getElementById("intro").classList.remove("show");
+	document.getElementById("danger").classList.remove("show");
+	document.getElementById("war").classList.remove("show");
+	document.getElementById("hip").classList.remove("show");
+	document.getElementById("let").classList.remove("show");
+	document.getElementById("rain").classList.remove("show");
+	document.getElementById("cypher").classList.remove("show");
+	document.getElementById("what").classList.remove("show");
+	document.getElementById("phone").classList.remove("show");
+	document.getElementById("kick").classList.remove("show");
+	document.getElementById("heaven").classList.remove("show");
+	document.getElementById("look").classList.remove("show");
+	document.getElementById("2nd").classList.remove("show");
+	document.getElementById("outro").classList.remove("show");
+}
+function music() {
+	document.getElementById("music").classList.toggle("show");
+	document.getElementById("hide").classList.remove("show");
+	document.getElementById("video").classList.remove("show");
+	document.getElementById("tour").classList.remove("show");
+	document.getElementById("s1").classList.remove("show");
+	document.getElementById("s2").classList.remove("show");
+	document.getElementById("s3").classList.remove("show");
+	document.getElementById("s4").classList.remove("show");
+	document.getElementById("s5").classList.remove("show");
+	document.getElementById("s6").classList.remove("show");
+	document.getElementById("s7").classList.remove("show");
+	document.getElementById("s8").classList.remove("show");
+	document.getElementById("s9").classList.remove("show");
+	document.getElementById("s10").classList.remove("show");
+	document.getElementById("s11").classList.remove("show");
+	document.getElementById("s12").classList.remove("show");
+	document.getElementById("s13").classList.remove("show");
+	document.getElementById("s14").classList.remove("show");
+	document.getElementById("intro").classList.remove("show");
+	document.getElementById("danger").classList.remove("show");
+	document.getElementById("war").classList.remove("show");
+	document.getElementById("hip").classList.remove("show");
+	document.getElementById("let").classList.remove("show");
+	document.getElementById("rain").classList.remove("show");
+	document.getElementById("cypher").classList.remove("show");
+	document.getElementById("what").classList.remove("show");
+	document.getElementById("phone").classList.remove("show");
+	document.getElementById("kick").classList.remove("show");
+	document.getElementById("heaven").classList.remove("show");
+	document.getElementById("look").classList.remove("show");
+	document.getElementById("2nd").classList.remove("show");
+	document.getElementById("outro").classList.remove("show");
+}
+function tour() {
+	document.getElementById("tour").classList.toggle("show");
+	document.getElementById("hide").classList.remove("show");
+	document.getElementById("video").classList.remove("show");
+	document.getElementById("music").classList.remove("show");
+	document.getElementById("s1").classList.remove("show");
+	document.getElementById("s2").classList.remove("show");
+	document.getElementById("s3").classList.remove("show");
+	document.getElementById("s4").classList.remove("show");
+	document.getElementById("s5").classList.remove("show");
+	document.getElementById("s6").classList.remove("show");
+	document.getElementById("s7").classList.remove("show");
+	document.getElementById("s8").classList.remove("show");
+	document.getElementById("s9").classList.remove("show");
+	document.getElementById("s10").classList.remove("show");
+	document.getElementById("s11").classList.remove("show");
+	document.getElementById("s12").classList.remove("show");
+	document.getElementById("s13").classList.remove("show");
+	document.getElementById("s14").classList.remove("show");
+	document.getElementById("intro").classList.remove("show");
+	document.getElementById("danger").classList.remove("show");
+	document.getElementById("war").classList.remove("show");
+	document.getElementById("hip").classList.remove("show");
+	document.getElementById("let").classList.remove("show");
+	document.getElementById("rain").classList.remove("show");
+	document.getElementById("cypher").classList.remove("show");
+	document.getElementById("what").classList.remove("show");
+	document.getElementById("phone").classList.remove("show");
+	document.getElementById("kick").classList.remove("show");
+	document.getElementById("heaven").classList.remove("show");
+	document.getElementById("look").classList.remove("show");
+	document.getElementById("2nd").classList.remove("show");
+	document.getElementById("outro").classList.remove("show");
+}
+function track() {
+	document.getElementById("hide").classList.remove("show");
+	document.getElementById("video").classList.remove("show");
+	document.getElementById("music").classList.remove("show");
+	document.getElementById("tour").classList.remove("show");
+	document.getElementById("s1").classList.toggle("show");
+	document.getElementById("s2").classList.toggle("show");
+	document.getElementById("s3").classList.toggle("show");
+	document.getElementById("s4").classList.toggle("show");
+	document.getElementById("s5").classList.toggle("show");
+	document.getElementById("s6").classList.toggle("show");
+	document.getElementById("s7").classList.toggle("show");
+	document.getElementById("s8").classList.toggle("show");
+	document.getElementById("s9").classList.toggle("show");
+	document.getElementById("s10").classList.toggle("show");
+	document.getElementById("s11").classList.toggle("show");
+	document.getElementById("s12").classList.toggle("show");
+	document.getElementById("s13").classList.toggle("show");
+	document.getElementById("s14").classList.toggle("show");
+	document.getElementById("intro").classList.remove("show");
+	document.getElementById("danger").classList.remove("show");
+	document.getElementById("war").classList.remove("show");
+	document.getElementById("hip").classList.remove("show");
+	document.getElementById("let").classList.remove("show");
+	document.getElementById("rain").classList.remove("show");
+	document.getElementById("cypher").classList.remove("show");
+	document.getElementById("what").classList.remove("show");
+	document.getElementById("phone").classList.remove("show");
+	document.getElementById("kick").classList.remove("show");
+	document.getElementById("heaven").classList.remove("show");
+	document.getElementById("look").classList.remove("show");
+	document.getElementById("2nd").classList.remove("show");
+	document.getElementById("outro").classList.remove("show");
+}
+function playIntro() {
+	document.getElementById("intro").classList.toggle("show");
+}
+function playDanger() {
+	document.getElementById("danger").classList.toggle("show");
+}
+function playWar() {
+	document.getElementById("war").classList.toggle("show");
+}
+function playHip() {
+	document.getElementById("hip").classList.toggle("show");
+}
+function playLet() {
+	document.getElementById("let").classList.toggle("show");
+}
+function playRain() {
+	document.getElementById("rain").classList.toggle("show");
+}
+function playCypher() {
+	document.getElementById("cypher").classList.toggle("show");
+}
+function playWhat() {
+	document.getElementById("what").classList.toggle("show");
+}
+function playPhone() {
+	document.getElementById("phone").classList.toggle("show");
+}
+function playsonKick() {
+	document.getElementById("kick").classList.toggle("show");
+}
+function playHeaven() {
+	document.getElementById("heaven").classList.toggle("show");
+}
+function playLook() {
+	document.getElementById("look").classList.toggle("show");
+}
+function play2nd() {
+	document.getElementById("2nd").classList.toggle("show");
+}
+function playOutro() {
+	document.getElementById("outro").classList.toggle("show");
+}

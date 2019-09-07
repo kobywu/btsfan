@@ -1,0 +1,18 @@
+body{
+	background-color:#1B2B3A;
+}
+
+@media screen and (min-width:400px) and (max-width:794px){
+	.music{
+			height:300px;
+		}
+	.promo{
+		height:400px;
+	}
+
+}
+@media screen and (min-width:795px) and (min-width:1110px){
+	.promo, .music{
+		height:200px;
+	}
+}
